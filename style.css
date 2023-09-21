@@ -2,6 +2,31 @@
     font-family: Arial, Helvetica, sans-serif;
 }
 
+header{
+    background-color: #FEC89A;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+nav,ul,li{
+    height: 100%;
+}
+nav > ul > li{
+    list-style:none;
+    display: inline;
+    padding: 24px 4px;
+}
+nav > ul > li:hover{
+    background-color: #F8EDEB;
+}
+nav > ul > li > a {
+    text-decoration: none;
+    color:black;
+}
+
 body {
     background-color: aquamarine;
 }
